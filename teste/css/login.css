@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffc680;
+}
+.login-container {
+    margin: 100px auto;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+input[type="text"], input[type="password"] {
+    width: 90%;
+    padding: 10px 0px;
+    margin: 5px 0;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}

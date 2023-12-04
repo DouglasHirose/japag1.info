@@ -1,0 +1,27 @@
+h2{
+    text-align: center;
+}
+
+.forms form {
+    width: 85%;
+    height: 50px;
+    margin: 20px auto;
+}
+.forms input, textarea {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    width: 95%;
+    height: 50%
+}
+.forms textarea {
+    height: 120px;
+    max-width: 96%;
+}
+.forms input[type="submit"] {
+    height: 40px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

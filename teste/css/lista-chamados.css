@@ -1,0 +1,15 @@
+.lista-chamados{
+    padding: 20px 20px;
+
+}
+
+.tabela_chamados, .tabela_chamados td, .tabela_chamados th{
+    border-collapse:collapse;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+}
+
+.tabela_chamados th{
+    background-color: antiquewhite;
+}

@@ -1,0 +1,54 @@
+.container-left {
+    float: left; /* Alinhe à esquerda */
+    width: 15%; /* Defina a largura desejada para o container esquerdo */
+    height: 100%;
+    background-color: #f0f0f0; /* Cor de fundo do container esquerdo */
+    padding: 10px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclua preenchimento e borda na largura */
+}
+
+/* Estilize o menu vertical */
+.vertical-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-heading {
+    color: #333;
+    padding: 10px;
+    cursor: inherit;
+    font-weight: bold;
+}
+
+.sub-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.sub-menu li {
+    padding: 5px 25px;
+    background-color: #eee;
+}
+
+.menu-heading:hover + .sub-menu {
+    font-weight: bold;
+    display: block;
+}
+
+.sub-menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sub-menu li:hover {
+    background-color: #ccc;
+}
+
+.main-content {
+    float: right;
+    width: 85%;
+    height: 100%;
+}

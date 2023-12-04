@@ -1,0 +1,26 @@
+.container{
+    padding: 50px 70px;
+}
+
+.cont_chamados, .tabela_chamados td, .tabela_chamados th{
+    border-collapse:collapse;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.cont_chamados th{
+    background-color: antiquewhite;
+}
+
+td {
+    width: 100px; /* Define a largura das células */
+    height: 50px; /* Define a altura das células */
+    border: 1px solid #000; /* Adiciona borda para visualização */
+    font-size: 50px;
+}
+
+h1{
+    text-align: center;
+}
